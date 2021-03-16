@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Donor</title>
+<!--CSS File -->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<fieldset>
+<body>
+<div class="blood">
+
+<h1 style="color:red;">Donor Information</h1>
+<div class="text">
+<label><b>First Name</b> <span style="color:red">*</span> <input type :"text" /></label><br>
+<br>
+<label><b>Last Name</b> <span style="color:red">*</span> <input type="text" name=""/></label><br>
+<br>
+<label><b>Company</b> <input type="text" name=""/></label><br>
+<br>
+<label><b>Address 1</b><span style="color:red">*</span> <input type="text" name=""/></label><br>
+<br>
+<label>Address 2 <input type="text" name=""/></label><br>
+<br>
+<label>City <span style="color:red">*</span> <input type="text" name=""/></label><br>
+<br>
+<label>State</label> <span style="color:red">*</span>
+<select>
+<option>Select a State</option>
+<option>Chittagong</option>
+<option>Comillah</option>
+<option>Barisal</option>
+<option>Rajshahi</option>
+</select><br>
+<br>
+<label>Zip Code <span style="color:red">*</span> <input type="text" name=""/></label><br>
+<br>
+<label>Country</label> <span style="color:red">*</span>
+<select>
+<option>Select a Country</option>
+<option>Bangladesh</option>
+<option>US</option>
+<option>Germany</option>
+<option>koria</option>
+</select><br>
+<br>
+<label>Phone <input type="text" name=""/></label><br>
+<br>
+<label>Fax <input type="text" name=""/></label><br>
+<br>
+<label for="Email">Email <span style="color:red">*</span></label>
+<input type="Email" id="Email" name="Email"><br>
+</div>
+<br>
+<label>Donation Amount <span style="color:red">*</span></label>
+<input type="radio" id="None" name="Amount" value="None">
+<label for="None">None</label>
+<input type="radio" id="$50" name="Amount" value="$50">
+<label for="$50">$50</label>
+<input type="radio" id="$75" name="Amount" value="$75">
+<label for="$50">$75</label>
+<input type="radio" id="$100" name="Amount" value="$100">
+<label for="$50">$100</label>
+<input type="radio" id="$250" name="Amount" value="$250">
+<label for="$250">$250</label>
+<input type="radio" id="None" name="Amount" value="None">
+<label for="None">Others</label><br>
+<label>(click a button or type in your ammount)</label><br>
+<br>
+    <label><b>Other Ammount:</b> <input type :"text" /></label><br>
+    <br>
+<label> Recurring Donation</label>
+<input type="checkbox" id="Amount" name="None">
+<label for="None"> I am interested in giving on a regular basis</label><br>
+<label>(Check if yes)</label><br>
+<br>
+    <label>Monthly Credit card $ <input type :"text" size="4" /> For <input type="text" size="4"> Moths </label><br>
+
+    <h2 style="color: red">Honorarium and Memorial Donation Information</h2>
+    <label><b>I would like to make this donation </b></label>
+    <form>
+    <input type="radio" name="Donation">
+    <label> To Honor </label><br>
+    <input type="radio" name="Donation">
+    <label> In Memory of </label>
+    </form>
+    <br>
+    <div id="a">
+    <label><b>Name <input type="text" name=""></b></label><br>
+    <br>
+    <label><b>Acknowledge Donation to <input type="text" name=""></b></label><br>
+    <br>
+    <label><b>Address <input type="text" name=""></b></label><br>
+    <br>
+    <label><b>City</b> <input type="text" name=""></label><br>
+    <br>
+    <label><b>state </b></label>
+    <select>
+    <option>Select a state</option>
+    <option>Chittagong</option>
+<option>Comillah</option>
+<option>Barisal</option>
+<option>Rajshahi</option>
+    </select><br>
+    <br>
+    <label>Zip <input type="text" name=""></label>
+    </div>
+
+    <h3 style="color: red">Additional Information</h3>
+    <label>Please enter your name, company or organisation as you would like it to appear in our publications : </label><br>
+    <br>
+    <label><b>Name </b> <input type="text" name=""></label>
+    <form>
+    <input type="checkbox" name="Donation">
+    <label> I would like my gift to remain anonymous. </label><br>
+    <input type="checkbox" name="Donation">
+    <label> My emoloyer offers a match gift program. i will mail the matching gift form. </label><br>
+    <input type="checkbox" name="Donation">
+    <label> Please save the cost of acknowledging this gift by not mailing a thank you latter. </label>
+    </form>
+    <label><b>Comments</b><br>
+    (Please type questions or feedback here)</label>
+    <textarea name="Memorial" rows="3" cols="30"></textarea><br>
+    <br>
+    <label>How may we contact you ?</label>
+    <form>
+    <input type="checkbox" name="contact">
+    <label>E-mail</label><br>
+    <input type="checkbox" name="contact">
+    <label>Postal mail</label><br>
+    <input type="checkbox" name="contact">
+    <label>Telephone</label><br>
+    <input type="checkbox" name="contact">
+    <label>Fax</label>
+    </form><br>
+    <label>I would like to receive newsletters and information about special ebents by : </label>
+    <form>
+    <input type="checkbox" name="contact">
+    <label>E-mail</label><br>
+    <input type="checkbox" name="contact">
+    <label>Postal mail</label><br>
+    </form><br>
+    <input type="checkbox" name="Donation">
+    <label> I would like information about volunteering the. </label><br>
+    <br>
+    <div id="a">
+    <button><b>Reset</b></button> <button><b>Continue</b></button><br>
+    <br>
+    <label> If you have any problem or questions, please contact <button>Support</button></label>
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</fieldset>
+</html>
